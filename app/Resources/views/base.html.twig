@@ -2,18 +2,19 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}AALEH 2016{% endblock %}</title>
         <link rel="stylesheet" href="{{ asset('bundles/app/css/foundation.css') }}" />
         <link rel="stylesheet" href="{{ asset('bundles/app/css/kube.css') }}" />
         <link rel="stylesheet" href="{{ asset('bundles/app/css/orbit.css') }}" />
         {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('icono.ico') }}" />
     </head>
     <body >
+    <div class="fondo" style="padding-bottom: 0px;padding-top: 0px;">
       <div class="page-wrap">
           <div class="row">
                <div class="large-12 columns">
-                  <img src="{{ asset('banner_oficial.jpg')}}" class="img-rounded img-responsive" width="130px" height="147px">
+                  <img src="{{ asset('banner.png')}}" class="img-rounded img-responsive" width="100%">
                </div>
           </div>
           <div class="row">
@@ -39,74 +40,78 @@
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" style="background: white;">
+          <div id="content-padding">
             <div class="large-12 columns">
-              <img src="{{ asset('lasvegas.png')}}" class="img-rounded img-responsive" width="1200px" height="147px">
+              <img src="{{ asset('vegas1.jpg')}}" class="img-rounded img-responsive" width="100%" >
             </div>
           </div>
-          <div class="row">
+          </div>
+          <div class="row" style="background: white;padding-left:5px;padding-top:10px;">
             <div class="large-9 columns">
+              <div id="content">
+                <div id="content-padding">
               {% block content %}
 
               {% endblock %}
+              </div>
+              </div>
             </div>
             <div class="large-3 columns">
-              <div class="row">
+
+              <div >
 <ul class="pricing-table">
-<li class="title">Important Dates</li>
+<li class="title">RELEVANT DATES:</li>
 <li class="bullet-item">
-    <strong>Papers Due:</strong> October 15 (hard deadline), 2014
+    <strong>Submission deadline:</strong> August 28, 2015
 </li>
 <li class="bullet-item">
-    <strong>Acceptance Notification:</strong> November 3, 2014
+    <strong>Acceptance Notification:</strong> October 5, 2015
 </li>
 <li class="bullet-item">
-    <strong>Camera Ready Due:</strong> December 1, 2014
+    <strong>Camera Ready:</strong> November 2, 2015
 </li>
 <li class="bullet-item">
-    <strong>Workshop:</strong> January 12, 2015
+    <strong>Workshop date:</strong> January 9, 2016
 </li>
 </ul>
               </div>
-              <div class="row">
+              <div >
 <ul class="pricing-table">
-<li class="title">Latest News</li>
+<li class="title">LATEST NEWS</li>
 <li class="bullet-item">
-    <strong>Website launch,</strong> August 1
+    <strong>Website launch,</strong> June 22
 </li>
 <li class="bullet-item">
-    <strong>Submission open,</strong> August 15
-</li>
-<li class="bullet-item">
-    <strong>Deadline extension</strong> September 24
-</li>
-<li class="bullet-item">
-    <strong>Program available,</strong> December 12
+    <strong>Submission open,</strong> June 22
 </li>
 </ul>
               </div>
-              <div class="row">
+              <div>
 <ul class="pricing-table">
-<li class="title">Organizers</li>
+<li class="title">ORGANIZATION:</li>
 <li class="description">
-    <strong>Prof. Carlos Tavares Calafate</strong><br>
-    Technical University of Valencia (UPV), Spain<br>
-    <a href="mailto:calafate@disca.upv.es">calafate@disca.upv.es</a>
+    <strong>Dr. Arnoldo Díaz-Ramírez</strong><br>
+    Technical Institute of Mexicali (ITM), México<br>
+    <a href="mailto:adiaz@itmexicali.edu.mx">adiaz@itmexicali.edu.mx</a>
 </li>
 </ul>
               </div>
-              <div class="row">
+              <div >
               <img src="{{ asset('caii.png')}}">
               </div>
+
             </div>
           </div>
       </div>
-      <footer class="site-footer" >
+      <footer class="site-footer" style="background: white;max-width: 57.5rem;" >
         <div class="large-12 columns">
           <hr/>
           <div class="row">
             <div class="large-5 columns">
-              <p>© Copyright.</p>
+                <div style="padding-left: 10px;padding-right: 10px; ">
+                <p>© Copyright.</p>
+                </div>
             </div>
             <div class="large-7 columns">
               
@@ -114,6 +119,7 @@
           </div>
         </div>
       </footer>
+      </div>
   <script src="{{asset('bundles/app/js/foundation.min.js')}}"></script>
   <script src="{{asset('bundles/app/js/foundation/foundation.js')}}"></script>
   <script src="{{asset('bundles/app/js/foundation/foundation.dropdown.js')}}"></script>

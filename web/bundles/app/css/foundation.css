@@ -55,7 +55,6 @@ body {
   font-size: 100%; }
 
 body {
-  background: #fff;
   color: #222;
   padding: 0;
   margin: 0;
@@ -65,6 +64,52 @@ body {
   line-height: 1.5;
   position: relative;
   cursor: auto; }
+#content {
+  float:left;
+  background:#DDD;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-right: 6px;
+}
+
+#content-padding {
+  padding:6px;
+}
+
+#content h1,h2,h3,h4,h5 {
+  padding:5px 5px 10px 5px;
+  font:32px Arial, "Times New Roman", Times;
+  color:#494949;
+  text-align:left;
+}
+
+#content p {
+  padding:0px 5px 10px 5px;
+  font:13px Arial, "Times New Roman", Times;
+  text-align:justify;
+  font-weight: normal;
+}
+
+#content a {
+  text-decoration: underline;
+  color:#0B3E70;
+}
+  
+#content a:hover {
+  text-decoration:none;
+  text-shadow:0px 0px 4px #FDA041;
+}
+div.fondo{
+  margin:0 auto; 
+  width:100%; 
+  padding:5px;
+  position: relative;
+  background: #5d9732;/* 0080FF azul */
+  -webkit-box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, .5);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .5);
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
 
 a:hover {
   cursor: pointer; }
@@ -138,7 +183,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 57.5rem; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -916,8 +961,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.10rem;
+    padding-right: 0.10rem;
     float: left; }
 
   .large-1 {
@@ -927,7 +972,9 @@ select {
     width: 16.66667%; }
 
   .large-3 {
-    width: 25%; }
+    width: 25%;
+    padding-right: 5px;
+    padding-left: 2px; }
 
   .large-4 {
     width: 33.33333%; }
@@ -945,7 +992,9 @@ select {
     width: 66.66667%; }
 
   .large-9 {
-    width: 75%; }
+    width: 75%;
+    padding-right: 3px;
+    padding-left: 5px; }
 
   .large-10 {
     width: 83.33333%; }
@@ -2847,12 +2896,12 @@ meta.foundation-mq-topbar {
     list-style: none;
     line-height: 1; }
   .pricing-table .title {
-    background-color: #333333;
+    background-color: #424242;
     padding: 0.5375rem 1rem;
     text-align: center;
     color: #EEEEEE;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 15px;
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
   .pricing-table .price {
     background-color: #F6F6F6;
@@ -2867,7 +2916,7 @@ meta.foundation-mq-topbar {
     padding: 0.9375rem;
     text-align: left;
     color: #777777;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: normal;
     line-height: 1.4;
     border-bottom: dotted 1px #DDDDDD; }
@@ -2876,7 +2925,7 @@ meta.foundation-mq-topbar {
     padding: 0.3375rem;
     text-align: left;
     color: #333333;
-    font-size: 0.875rem;
+    font-size: 13px;
     font-weight: normal;
     border-bottom: dotted 1px #DDDDDD; }
   .pricing-table .cta-button {
