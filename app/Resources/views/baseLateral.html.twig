@@ -1,5 +1,6 @@
 {% extends '::base.html.twig' %}
 {% block lateral %}
+<div class="large-3 columns">
               <div >
 <ul class="pricing-table">
 <li class="title">RELEVANT DATES:</li>
@@ -41,4 +42,8 @@
               <div >
               <img src="{{ asset('caii.png')}}">
               </div>
+</div>
+{% endblock %}
+{% block cols %}
+<div class="large-9 columns">
 {% endblock %}
