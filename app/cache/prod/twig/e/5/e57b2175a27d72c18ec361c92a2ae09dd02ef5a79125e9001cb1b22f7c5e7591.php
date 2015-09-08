@@ -34,11 +34,7 @@ class __TwigTemplate_e57b2175a27d72c18ec361c92a2ae09dd02ef5a79125e9001cb1b22f7c5
 <ul class=\"pricing-table\">
 <li class=\"title\">RELEVANT DATES:</li>
 <li class=\"bullet-item\">
-<<<<<<< HEAD
     <strong>Submission deadline:</strong> <strike>September 6, 2015</strike>. September 20, 2015
-=======
-    <strong>Submission deadline:</strong> September 20, 2015
->>>>>>> 65aaa67f922d1a2da25c723efb7241c0293cd75b
 </li>
 <li class=\"bullet-item\">
     <strong>Acceptance Notification:</strong> October 18, 2015
@@ -74,7 +70,7 @@ class __TwigTemplate_e57b2175a27d72c18ec361c92a2ae09dd02ef5a79125e9001cb1b22f7c5
               </div>
               <div >
               <img src=\"";
-        // line 47
+        // line 43
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("caii.png"), "html", null, true);
         echo "\">
               </div>
@@ -82,10 +78,10 @@ class __TwigTemplate_e57b2175a27d72c18ec361c92a2ae09dd02ef5a79125e9001cb1b22f7c5
 ";
     }
 
-    // line 51
+    // line 47
     public function block_cols($context, array $blocks = array())
     {
-        // line 52
+        // line 48
         echo "<div class=\"large-9 columns\">
 ";
     }
@@ -102,6 +98,6 @@ class __TwigTemplate_e57b2175a27d72c18ec361c92a2ae09dd02ef5a79125e9001cb1b22f7c5
 
     public function getDebugInfo()
     {
-        return array (  89 => 52,  86 => 51,  78 => 47,  32 => 3,  29 => 2,  11 => 1,);
+        return array (  85 => 48,  82 => 47,  74 => 43,  32 => 3,  29 => 2,  11 => 1,);
     }
 }
