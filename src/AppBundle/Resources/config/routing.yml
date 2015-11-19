@@ -16,3 +16,6 @@ programa:
 comite:
     pattern: /Committee
     defaults: { _controller: AppBundle:Default:comite }
+venue:
+    pattern: /Venue
+    defaults: { _controller: AppBundle:Default:venue }
