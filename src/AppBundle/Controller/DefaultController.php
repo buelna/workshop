@@ -30,4 +30,8 @@ class DefaultController extends Controller
     {
         return $this->render('AppBundle:Default:comite.html.twig');
     }
+    public function venueAction()
+    {
+        return $this->render('AppBundle:Default:venue.html.twig');
+    }
 }
