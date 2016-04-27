@@ -1,6 +1,6 @@
 <?php
 
-/* @WebProfiler/Profiler/toolbar.html.twig */
+/* WebProfilerBundle:Profiler:toolbar.html.twig */
 class __TwigTemplate_631b08d17d617f2242fbc02fef1ddd5c1a183cce1f9ac6b3ca90839757ae5108 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,8 +15,8 @@ class __TwigTemplate_631b08d17d617f2242fbc02fef1ddd5c1a183cce1f9ac6b3ca90839757a
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2b509aceab0a3a35882b0279a4ac4f609a4b0018952fd3d956866ed31cafb647 = $this->env->getExtension("native_profiler");
-        $__internal_2b509aceab0a3a35882b0279a4ac4f609a4b0018952fd3d956866ed31cafb647->enter($__internal_2b509aceab0a3a35882b0279a4ac4f609a4b0018952fd3d956866ed31cafb647_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.html.twig"));
+        $__internal_7b95171014321e3154f1bd1a117b4003d456eace3f9c7c0a4e5df3544b2f1659 = $this->env->getExtension("native_profiler");
+        $__internal_7b95171014321e3154f1bd1a117b4003d456eace3f9c7c0a4e5df3544b2f1659->enter($__internal_7b95171014321e3154f1bd1a117b4003d456eace3f9c7c0a4e5df3544b2f1659_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar.html.twig"));
 
         // line 1
         echo "<!-- START of Symfony Web Debug Toolbar -->
@@ -125,13 +125,13 @@ $context["name"], "profiler_markup_version" =>             // line 34
 <!-- END of Symfony Web Debug Toolbar -->
 ";
         
-        $__internal_2b509aceab0a3a35882b0279a4ac4f609a4b0018952fd3d956866ed31cafb647->leave($__internal_2b509aceab0a3a35882b0279a4ac4f609a4b0018952fd3d956866ed31cafb647_prof);
+        $__internal_7b95171014321e3154f1bd1a117b4003d456eace3f9c7c0a4e5df3544b2f1659->leave($__internal_7b95171014321e3154f1bd1a117b4003d456eace3f9c7c0a4e5df3544b2f1659_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "@WebProfiler/Profiler/toolbar.html.twig";
+        return "WebProfilerBundle:Profiler:toolbar.html.twig";
     }
 
     public function isTraitable()
