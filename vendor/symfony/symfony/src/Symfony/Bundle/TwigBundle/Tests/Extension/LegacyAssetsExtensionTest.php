@@ -13,7 +13,6 @@ namespace Symfony\Bundle\TwigBundle\Tests\Extension;
 
 use Symfony\Bundle\TwigBundle\Extension\AssetsExtension;
 use Symfony\Bundle\TwigBundle\Tests\TestCase;
-use Symfony\Component\Routing\RequestContext;
 
 /**
  * @group legacy
@@ -22,7 +21,9 @@ class LegacyAssetsExtensionTest extends TestCase
 {
     protected function setUp()
     {
-        $this->iniSet('error_reporting', -1 & ~E_USER_DEPRECATED);
+        if (!class_exists('Symfony\Component\Templating\Helper\CoreAssetsHelper')) {
+            $this->markTestSkipped('The CoreAssetsHelper class does only exist with symfony/templating < 3.0 installed.');
+        }
     }
 
     /**
