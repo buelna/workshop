@@ -21,20 +21,20 @@ class __TwigTemplate_b5f2db23e79a938682023ccb008e723fa247c78c455575111423daf5e78
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e22447b084ec0920849febf3e9d484e410ff1b71cd469a5471f1844a0ac89224 = $this->env->getExtension("native_profiler");
-        $__internal_e22447b084ec0920849febf3e9d484e410ff1b71cd469a5471f1844a0ac89224->enter($__internal_e22447b084ec0920849febf3e9d484e410ff1b71cd469a5471f1844a0ac89224_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:index.html.twig"));
+        $__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3 = $this->env->getExtension("native_profiler");
+        $__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3->enter($__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_e22447b084ec0920849febf3e9d484e410ff1b71cd469a5471f1844a0ac89224->leave($__internal_e22447b084ec0920849febf3e9d484e410ff1b71cd469a5471f1844a0ac89224_prof);
+        $__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3->leave($__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_ff76072bf8c13bb8aef0df29e668e5a49dfa8cded0bd45cc12a7bb500e4d81e5 = $this->env->getExtension("native_profiler");
-        $__internal_ff76072bf8c13bb8aef0df29e668e5a49dfa8cded0bd45cc12a7bb500e4d81e5->enter($__internal_ff76072bf8c13bb8aef0df29e668e5a49dfa8cded0bd45cc12a7bb500e4d81e5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77 = $this->env->getExtension("native_profiler");
+        $__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77->enter($__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "<h1>Scope</h1>
@@ -70,7 +70,7 @@ Topics of interest include, but are not limited to, the following scope:
 </p>
 ";
         
-        $__internal_ff76072bf8c13bb8aef0df29e668e5a49dfa8cded0bd45cc12a7bb500e4d81e5->leave($__internal_ff76072bf8c13bb8aef0df29e668e5a49dfa8cded0bd45cc12a7bb500e4d81e5_prof);
+        $__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77->leave($__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77_prof);
 
     }
 
