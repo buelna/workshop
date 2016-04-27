@@ -21,20 +21,20 @@ class __TwigTemplate_b5f2db23e79a938682023ccb008e723fa247c78c455575111423daf5e78
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3 = $this->env->getExtension("native_profiler");
-        $__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3->enter($__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:index.html.twig"));
+        $__internal_3b5f9fe0bedd22f750ecebaa3798a6682464e51f9306f4980567185f6cc8b405 = $this->env->getExtension("native_profiler");
+        $__internal_3b5f9fe0bedd22f750ecebaa3798a6682464e51f9306f4980567185f6cc8b405->enter($__internal_3b5f9fe0bedd22f750ecebaa3798a6682464e51f9306f4980567185f6cc8b405_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3->leave($__internal_b8f7e71d8bef305b40e13d65f571d6872dc80cc7c9adef50f2cdb05874df82b3_prof);
+        $__internal_3b5f9fe0bedd22f750ecebaa3798a6682464e51f9306f4980567185f6cc8b405->leave($__internal_3b5f9fe0bedd22f750ecebaa3798a6682464e51f9306f4980567185f6cc8b405_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77 = $this->env->getExtension("native_profiler");
-        $__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77->enter($__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_10319951e742a7d891bde8a16ba0923a632ba589034e624a18a64b797233dc81 = $this->env->getExtension("native_profiler");
+        $__internal_10319951e742a7d891bde8a16ba0923a632ba589034e624a18a64b797233dc81->enter($__internal_10319951e742a7d891bde8a16ba0923a632ba589034e624a18a64b797233dc81_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "<h1>Scope</h1>
@@ -53,6 +53,7 @@ Topics of interest include, but are not limited to, the following scope:
 <ul>
 <li>Smart Ad hoc and wireless sensor networks for eHealth and AAL</li>
 <li>Internet of Things (IoT) solutions for eHealth and AAL</li>
+<li>Big Data in eHealth and AAL</li>
 <li>Cyber-physicals systems aimed to eHealth and AAL</li>
 <li>Cloud and mobile computing for eHealth and AAL</li>
 <li>Service oriented architectures for eHealth and AAL</li>
@@ -64,13 +65,11 @@ Topics of interest include, but are not limited to, the following scope:
 <li>Wireless access to eHealth and AAL systems</li>
 <li>Security, privacy and trust management for eHealth and AAL</li>
 <li>Middleware for eHealth and AAL systems</li>
-<li>Detection and tracking algorithms for eHealth and AAL</li>
-<li>Fusion information techniques for eHealth and AAL</li>
 </ul>
 </p>
 ";
         
-        $__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77->leave($__internal_d78dbf7719ab0d5682c5c81e518b461c00f5a69a7e77f5ac78eddbd8183d1b77_prof);
+        $__internal_10319951e742a7d891bde8a16ba0923a632ba589034e624a18a64b797233dc81->leave($__internal_10319951e742a7d891bde8a16ba0923a632ba589034e624a18a64b797233dc81_prof);
 
     }
 
@@ -107,6 +106,7 @@ Topics of interest include, but are not limited to, the following scope:
 /* <ul>*/
 /* <li>Smart Ad hoc and wireless sensor networks for eHealth and AAL</li>*/
 /* <li>Internet of Things (IoT) solutions for eHealth and AAL</li>*/
+/* <li>Big Data in eHealth and AAL</li>*/
 /* <li>Cyber-physicals systems aimed to eHealth and AAL</li>*/
 /* <li>Cloud and mobile computing for eHealth and AAL</li>*/
 /* <li>Service oriented architectures for eHealth and AAL</li>*/
@@ -118,8 +118,6 @@ Topics of interest include, but are not limited to, the following scope:
 /* <li>Wireless access to eHealth and AAL systems</li>*/
 /* <li>Security, privacy and trust management for eHealth and AAL</li>*/
 /* <li>Middleware for eHealth and AAL systems</li>*/
-/* <li>Detection and tracking algorithms for eHealth and AAL</li>*/
-/* <li>Fusion information techniques for eHealth and AAL</li>*/
 /* </ul>*/
 /* </p>*/
 /* {% endblock %}*/
