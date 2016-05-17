@@ -22,20 +22,20 @@ class __TwigTemplate_75b3871af7bd920f4867ee1bb1ed8df3df65aae2c90479eb2f24459f5b5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_69e9e0cdd807914571d2651eb56cac400eae011d5bb9f5f0ea35f981833ad6ab = $this->env->getExtension("native_profiler");
-        $__internal_69e9e0cdd807914571d2651eb56cac400eae011d5bb9f5f0ea35f981833ad6ab->enter($__internal_69e9e0cdd807914571d2651eb56cac400eae011d5bb9f5f0ea35f981833ad6ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::baseLateral.html.twig"));
+        $__internal_f0667fc926e8cf0feb3a02882ee991e926a4c63df77697b682d17f3a790fd0d3 = $this->env->getExtension("native_profiler");
+        $__internal_f0667fc926e8cf0feb3a02882ee991e926a4c63df77697b682d17f3a790fd0d3->enter($__internal_f0667fc926e8cf0feb3a02882ee991e926a4c63df77697b682d17f3a790fd0d3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::baseLateral.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_69e9e0cdd807914571d2651eb56cac400eae011d5bb9f5f0ea35f981833ad6ab->leave($__internal_69e9e0cdd807914571d2651eb56cac400eae011d5bb9f5f0ea35f981833ad6ab_prof);
+        $__internal_f0667fc926e8cf0feb3a02882ee991e926a4c63df77697b682d17f3a790fd0d3->leave($__internal_f0667fc926e8cf0feb3a02882ee991e926a4c63df77697b682d17f3a790fd0d3_prof);
 
     }
 
     // line 2
     public function block_lateral($context, array $blocks = array())
     {
-        $__internal_4550c9c68f06cf762b28957946ffe75208fd61ec09af0f306fcc82232c23cad7 = $this->env->getExtension("native_profiler");
-        $__internal_4550c9c68f06cf762b28957946ffe75208fd61ec09af0f306fcc82232c23cad7->enter($__internal_4550c9c68f06cf762b28957946ffe75208fd61ec09af0f306fcc82232c23cad7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "lateral"));
+        $__internal_0b3acf600615c0d7da1af569e3cf1115764e975105ef1a5a0a4f27a1ab6ce1ba = $this->env->getExtension("native_profiler");
+        $__internal_0b3acf600615c0d7da1af569e3cf1115764e975105ef1a5a0a4f27a1ab6ce1ba->enter($__internal_0b3acf600615c0d7da1af569e3cf1115764e975105ef1a5a0a4f27a1ab6ce1ba_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "lateral"));
 
         // line 3
         echo "<div class=\"large-3 columns\">
@@ -65,6 +65,9 @@ class __TwigTemplate_75b3871af7bd920f4867ee1bb1ed8df3df65aae2c90479eb2f24459f5b5
 <li class=\"bullet-item\">
     <strong>Submission open:</strong> TBA
 </li>
+<li class=\"bullet-item\">
+    <strong>Paper page limit modified:</strong> May 17
+</li>
 </ul>
 </div>
 <div>
@@ -84,28 +87,28 @@ class __TwigTemplate_75b3871af7bd920f4867ee1bb1ed8df3df65aae2c90479eb2f24459f5b5
               </div>
               <div >
               <img src=\"";
-        // line 48
+        // line 51
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("caii.png"), "html", null, true);
         echo "\">
               </div>
 </div>
 ";
         
-        $__internal_4550c9c68f06cf762b28957946ffe75208fd61ec09af0f306fcc82232c23cad7->leave($__internal_4550c9c68f06cf762b28957946ffe75208fd61ec09af0f306fcc82232c23cad7_prof);
+        $__internal_0b3acf600615c0d7da1af569e3cf1115764e975105ef1a5a0a4f27a1ab6ce1ba->leave($__internal_0b3acf600615c0d7da1af569e3cf1115764e975105ef1a5a0a4f27a1ab6ce1ba_prof);
 
     }
 
-    // line 52
+    // line 55
     public function block_cols($context, array $blocks = array())
     {
-        $__internal_2624f90480bd556849f6977ec657c0410cec65b6643e973de657a26a4504900d = $this->env->getExtension("native_profiler");
-        $__internal_2624f90480bd556849f6977ec657c0410cec65b6643e973de657a26a4504900d->enter($__internal_2624f90480bd556849f6977ec657c0410cec65b6643e973de657a26a4504900d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
+        $__internal_aab1c16866887a43b8f74fe14a58bdc1dcf77ca81c4a0f635b91690c28c1c17e = $this->env->getExtension("native_profiler");
+        $__internal_aab1c16866887a43b8f74fe14a58bdc1dcf77ca81c4a0f635b91690c28c1c17e->enter($__internal_aab1c16866887a43b8f74fe14a58bdc1dcf77ca81c4a0f635b91690c28c1c17e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
 
-        // line 53
+        // line 56
         echo "<div class=\"large-9 columns\">
 ";
         
-        $__internal_2624f90480bd556849f6977ec657c0410cec65b6643e973de657a26a4504900d->leave($__internal_2624f90480bd556849f6977ec657c0410cec65b6643e973de657a26a4504900d_prof);
+        $__internal_aab1c16866887a43b8f74fe14a58bdc1dcf77ca81c4a0f635b91690c28c1c17e->leave($__internal_aab1c16866887a43b8f74fe14a58bdc1dcf77ca81c4a0f635b91690c28c1c17e_prof);
 
     }
 
@@ -121,7 +124,7 @@ class __TwigTemplate_75b3871af7bd920f4867ee1bb1ed8df3df65aae2c90479eb2f24459f5b5
 
     public function getDebugInfo()
     {
-        return array (  105 => 53,  99 => 52,  88 => 48,  41 => 3,  35 => 2,  11 => 1,);
+        return array (  108 => 56,  102 => 55,  91 => 51,  41 => 3,  35 => 2,  11 => 1,);
     }
 }
 /* {% extends '::base.html.twig' %}*/
@@ -152,6 +155,9 @@ class __TwigTemplate_75b3871af7bd920f4867ee1bb1ed8df3df65aae2c90479eb2f24459f5b5
 /* </li>*/
 /* <li class="bullet-item">*/
 /*     <strong>Submission open:</strong> TBA*/
+/* </li>*/
+/* <li class="bullet-item">*/
+/*     <strong>Paper page limit modified:</strong> May 17*/
 /* </li>*/
 /* </ul>*/
 /* </div>*/
