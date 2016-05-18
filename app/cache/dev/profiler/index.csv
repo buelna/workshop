@@ -1,5 +1,3 @@
-af0093,::1,GET,http://localhost/workshop/web/app_dev.php/,1463518742,,301
-9f0c96,::1,GET,http://localhost/workshop/web/app_dev.php/home/,1463518743,,200
-d7d690,::1,GET,http://localhost/workshop/web/app_dev.php/InstructionsForAuthors,1463518762,,200
-b676a5,::1,GET,http://localhost/workshop/web/app_dev.php/InstructionsForAuthors,1463518936,,200
-7858f9,::1,GET,http://localhost/workshop/web/app_dev.php/InstructionsForAuthors,1463518970,,200
+0a4c75,::1,GET,http://localhost/workshop/web/app_dev.php/,1463607497,,301
+feac4c,::1,GET,http://localhost/workshop/web/app_dev.php/home/,1463607498,,200
+b03549,::1,GET,http://localhost/workshop/web/app_dev.php/Committee,1463607502,,200
