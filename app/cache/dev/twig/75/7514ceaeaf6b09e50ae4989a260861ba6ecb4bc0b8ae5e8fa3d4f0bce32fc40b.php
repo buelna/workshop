@@ -21,20 +21,20 @@ class __TwigTemplate_6b9b51fc6916fe2387a6cc32e17d6fc1b702da3e581e8ceee5a80c789f3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_13f62769b244d2bf4f1a7de270c0d1802b804bebc677c7df7e326176b8f1fdaa = $this->env->getExtension("native_profiler");
-        $__internal_13f62769b244d2bf4f1a7de270c0d1802b804bebc677c7df7e326176b8f1fdaa->enter($__internal_13f62769b244d2bf4f1a7de270c0d1802b804bebc677c7df7e326176b8f1fdaa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:call.html.twig"));
+        $__internal_be9938ce9c32f1ade436dc3333c0841e51382f304527865d505aa6a8f8c940a9 = $this->env->getExtension("native_profiler");
+        $__internal_be9938ce9c32f1ade436dc3333c0841e51382f304527865d505aa6a8f8c940a9->enter($__internal_be9938ce9c32f1ade436dc3333c0841e51382f304527865d505aa6a8f8c940a9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:call.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_13f62769b244d2bf4f1a7de270c0d1802b804bebc677c7df7e326176b8f1fdaa->leave($__internal_13f62769b244d2bf4f1a7de270c0d1802b804bebc677c7df7e326176b8f1fdaa_prof);
+        $__internal_be9938ce9c32f1ade436dc3333c0841e51382f304527865d505aa6a8f8c940a9->leave($__internal_be9938ce9c32f1ade436dc3333c0841e51382f304527865d505aa6a8f8c940a9_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_004ea00adc6900e04c3c795efe45d4bb86314139aeafa7a0ac4c7767aaf05a14 = $this->env->getExtension("native_profiler");
-        $__internal_004ea00adc6900e04c3c795efe45d4bb86314139aeafa7a0ac4c7767aaf05a14->enter($__internal_004ea00adc6900e04c3c795efe45d4bb86314139aeafa7a0ac4c7767aaf05a14_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_07043bc11a11a462065faa1dcd3be86b8bd0fc41437f65248d417a3eef4ec021 = $this->env->getExtension("native_profiler");
+        $__internal_07043bc11a11a462065faa1dcd3be86b8bd0fc41437f65248d417a3eef4ec021->enter($__internal_07043bc11a11a462065faa1dcd3be86b8bd0fc41437f65248d417a3eef4ec021_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "<h1>Call for Papers</h1>
@@ -51,7 +51,7 @@ Therefore, this workshop is soliciting original technical papers addressing the 
 <p>&nbsp;</p>
 ";
         
-        $__internal_004ea00adc6900e04c3c795efe45d4bb86314139aeafa7a0ac4c7767aaf05a14->leave($__internal_004ea00adc6900e04c3c795efe45d4bb86314139aeafa7a0ac4c7767aaf05a14_prof);
+        $__internal_07043bc11a11a462065faa1dcd3be86b8bd0fc41437f65248d417a3eef4ec021->leave($__internal_07043bc11a11a462065faa1dcd3be86b8bd0fc41437f65248d417a3eef4ec021_prof);
 
     }
 

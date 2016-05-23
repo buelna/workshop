@@ -22,20 +22,20 @@ class __TwigTemplate_75b3871af7bd920f4867ee1bb1ed8df3df65aae2c90479eb2f24459f5b5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_58321c4f99ffc909a35b357ea3d78d931a6aaf04ab1707469dcd3b329905f828 = $this->env->getExtension("native_profiler");
-        $__internal_58321c4f99ffc909a35b357ea3d78d931a6aaf04ab1707469dcd3b329905f828->enter($__internal_58321c4f99ffc909a35b357ea3d78d931a6aaf04ab1707469dcd3b329905f828_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::baseLateral.html.twig"));
+        $__internal_cfbfd93e4fcb4ce1f50a7d75a07c98683f1148a11b8567beb78800b833906292 = $this->env->getExtension("native_profiler");
+        $__internal_cfbfd93e4fcb4ce1f50a7d75a07c98683f1148a11b8567beb78800b833906292->enter($__internal_cfbfd93e4fcb4ce1f50a7d75a07c98683f1148a11b8567beb78800b833906292_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::baseLateral.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_58321c4f99ffc909a35b357ea3d78d931a6aaf04ab1707469dcd3b329905f828->leave($__internal_58321c4f99ffc909a35b357ea3d78d931a6aaf04ab1707469dcd3b329905f828_prof);
+        $__internal_cfbfd93e4fcb4ce1f50a7d75a07c98683f1148a11b8567beb78800b833906292->leave($__internal_cfbfd93e4fcb4ce1f50a7d75a07c98683f1148a11b8567beb78800b833906292_prof);
 
     }
 
     // line 2
     public function block_lateral($context, array $blocks = array())
     {
-        $__internal_0e97906ba16826fb270f7a237f12dcf9211bcb6a589c914788c4162f720ea6e1 = $this->env->getExtension("native_profiler");
-        $__internal_0e97906ba16826fb270f7a237f12dcf9211bcb6a589c914788c4162f720ea6e1->enter($__internal_0e97906ba16826fb270f7a237f12dcf9211bcb6a589c914788c4162f720ea6e1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "lateral"));
+        $__internal_01236595955456a18b8dda342ef8efe3fe87e48df0e1ef4a7b99b43dbd61869b = $this->env->getExtension("native_profiler");
+        $__internal_01236595955456a18b8dda342ef8efe3fe87e48df0e1ef4a7b99b43dbd61869b->enter($__internal_01236595955456a18b8dda342ef8efe3fe87e48df0e1ef4a7b99b43dbd61869b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "lateral"));
 
         // line 3
         echo "<div class=\"large-3 columns\">
@@ -66,7 +66,7 @@ class __TwigTemplate_75b3871af7bd920f4867ee1bb1ed8df3df65aae2c90479eb2f24459f5b5
     <strong>Submission open:</strong> TBA
 </li>
 <li class=\"bullet-item\">
-    <strong>Paper page limit modified:</strong> May 17
+    <strong>Paper page limit setback:</strong> May 23
 </li>
 </ul>
 </div>
@@ -94,21 +94,21 @@ class __TwigTemplate_75b3871af7bd920f4867ee1bb1ed8df3df65aae2c90479eb2f24459f5b5
 </div>
 ";
         
-        $__internal_0e97906ba16826fb270f7a237f12dcf9211bcb6a589c914788c4162f720ea6e1->leave($__internal_0e97906ba16826fb270f7a237f12dcf9211bcb6a589c914788c4162f720ea6e1_prof);
+        $__internal_01236595955456a18b8dda342ef8efe3fe87e48df0e1ef4a7b99b43dbd61869b->leave($__internal_01236595955456a18b8dda342ef8efe3fe87e48df0e1ef4a7b99b43dbd61869b_prof);
 
     }
 
     // line 55
     public function block_cols($context, array $blocks = array())
     {
-        $__internal_14c2c1c5fbea21da79e011d77b69b39383e7d68b30a5da2f869c27b2a002b995 = $this->env->getExtension("native_profiler");
-        $__internal_14c2c1c5fbea21da79e011d77b69b39383e7d68b30a5da2f869c27b2a002b995->enter($__internal_14c2c1c5fbea21da79e011d77b69b39383e7d68b30a5da2f869c27b2a002b995_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
+        $__internal_c98e37bc9fc86c02fb73bc599562092d98ffd33efaf8641ff378c7caa867d920 = $this->env->getExtension("native_profiler");
+        $__internal_c98e37bc9fc86c02fb73bc599562092d98ffd33efaf8641ff378c7caa867d920->enter($__internal_c98e37bc9fc86c02fb73bc599562092d98ffd33efaf8641ff378c7caa867d920_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
 
         // line 56
         echo "<div class=\"large-9 columns\">
 ";
         
-        $__internal_14c2c1c5fbea21da79e011d77b69b39383e7d68b30a5da2f869c27b2a002b995->leave($__internal_14c2c1c5fbea21da79e011d77b69b39383e7d68b30a5da2f869c27b2a002b995_prof);
+        $__internal_c98e37bc9fc86c02fb73bc599562092d98ffd33efaf8641ff378c7caa867d920->leave($__internal_c98e37bc9fc86c02fb73bc599562092d98ffd33efaf8641ff378c7caa867d920_prof);
 
     }
 
@@ -157,7 +157,7 @@ class __TwigTemplate_75b3871af7bd920f4867ee1bb1ed8df3df65aae2c90479eb2f24459f5b5
 /*     <strong>Submission open:</strong> TBA*/
 /* </li>*/
 /* <li class="bullet-item">*/
-/*     <strong>Paper page limit modified:</strong> May 17*/
+/*     <strong>Paper page limit setback:</strong> May 23*/
 /* </li>*/
 /* </ul>*/
 /* </div>*/
