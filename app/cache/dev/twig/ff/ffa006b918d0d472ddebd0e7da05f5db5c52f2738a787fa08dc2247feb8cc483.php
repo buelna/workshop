@@ -20,8 +20,8 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_38f39d9aee0a558cc3ec1785f64f7c460c6dbfdaa1ac5e9a0043a16e4084cba9 = $this->env->getExtension("native_profiler");
-        $__internal_38f39d9aee0a558cc3ec1785f64f7c460c6dbfdaa1ac5e9a0043a16e4084cba9->enter($__internal_38f39d9aee0a558cc3ec1785f64f7c460c6dbfdaa1ac5e9a0043a16e4084cba9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
+        $__internal_4fb133828ffd9d7b2f7e0bfe394c8a1ce56024638aa1e4c2ff95164fa8cb70a4 = $this->env->getExtension("native_profiler");
+        $__internal_4fb133828ffd9d7b2f7e0bfe394c8a1ce56024638aa1e4c2ff95164fa8cb70a4->enter($__internal_4fb133828ffd9d7b2f7e0bfe394c8a1ce56024638aa1e4c2ff95164fa8cb70a4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -53,12 +53,13 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
         echo "\" />
     </head>
     <body >
+    <div class=\"body_back\">
     <div class=\"fondo\" style=\"padding-bottom: 0px;padding-top: 0px;\">
       <div class=\"page-wrap\">
           <div class=\"row\">
-            <a href=\"http://ccnc2017.ieee-ccnc.org/\">
+            <a href=\"http://ccnc2018.ieee-ccnc.org/\">
                   <img src=\"";
-        // line 17
+        // line 18
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("banner.png"), "html", null, true);
         echo "\" class=\"img-rounded img-responsive\" width=\"100%\">
             </a>
@@ -75,27 +76,27 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
                   <section class=\"top-bar-section\">
                     <ul class=\"left\">
                       <li><a href=\"";
-        // line 31
+        // line 32
         echo $this->env->getExtension('routing')->getPath("home");
         echo "\">Home</a></li>
                       <li><a href=\"";
-        // line 32
+        // line 33
         echo $this->env->getExtension('routing')->getPath("call");
         echo "\">Call for Papers</a></li>
                       <li><a href=\"";
-        // line 33
+        // line 34
         echo $this->env->getExtension('routing')->getPath("instrucciones");
         echo "\">Instructions for Authors</a></li>
                       <li><a href=\"";
-        // line 34
+        // line 35
         echo $this->env->getExtension('routing')->getPath("programa");
         echo "\">Program</a></li>
                       <li><a href=\"";
-        // line 35
+        // line 36
         echo $this->env->getExtension('routing')->getPath("comite");
         echo "\">Committee</a></li>
                       <li><a href=\"";
-        // line 36
+        // line 37
         echo $this->env->getExtension('routing')->getPath("venue");
         echo "\">Venue</a></li>
                     </ul>
@@ -108,7 +109,7 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
           <div id=\"content-padding\">
             <div class=\"large-12 columns\">
               <img src=\"";
-        // line 46
+        // line 47
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("vegas1.jpg"), "html", null, true);
         echo "\" class=\"img-rounded img-responsive\" width=\"100%\" >
             </div>
@@ -116,25 +117,25 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
           </div>
           <div class=\"row\" style=\"background: white;padding-left:5px;padding-top:10px;\">
             ";
-        // line 51
+        // line 52
         $this->displayBlock('cols', $context, $blocks);
-        // line 54
+        // line 55
         echo "              <div id=\"content\" width=\"100%\">
                 <div id=\"content-padding\">
               ";
-        // line 56
+        // line 57
         $this->displayBlock('content', $context, $blocks);
-        // line 59
+        // line 60
         echo "              </div>
               </div>
             </div>
             ";
-        // line 63
+        // line 64
         echo "            ";
         $this->displayBlock('lateral', $context, $blocks);
-        // line 65
-        echo "            ";
         // line 66
+        echo "            ";
+        // line 67
         echo "          </div>
       </div>
       <footer class=\"site-footer\" style=\"background: white;max-width: 57.5rem;\" >
@@ -143,7 +144,7 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
           <div class=\"row\">
             <div class=\"large-5 columns\">
                 <div style=\"padding-left: 10px;padding-right: 10px; \">
-                <p style=\"font-size: 10px;\">© Copyright. Workshop on Ambient Assisted Living and eHealth (AALEH 2017)</p>
+                <p style=\"font-size: 10px;\">© Copyright. Workshop on Ambient Assisted Living and eHealth (AALEH 2018)</p>
                 </div>
             </div>
             <div class=\"large-7 columns\">
@@ -153,32 +154,33 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
         </div>
       </footer>
       </div>
+    </div>
   <script src=\"";
-        // line 84
+        // line 86
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/js/foundation.min.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 85
+        // line 87
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/js/foundation/foundation.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 86
+        // line 88
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/js/foundation/foundation.dropdown.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 87
+        // line 89
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/js/foundation/foundation.tab.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 88
+        // line 90
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/js/vendor/jquery.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 89
+        // line 91
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/js/foundation/foundation.topbar.js"), "html", null, true);
         echo "\"></script>
   <script src=\"";
-        // line 90
+        // line 92
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/app/js/orbit.js"), "html", null, true);
         echo "\"></script>
 
@@ -189,72 +191,72 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
 </html>
 ";
         
-        $__internal_38f39d9aee0a558cc3ec1785f64f7c460c6dbfdaa1ac5e9a0043a16e4084cba9->leave($__internal_38f39d9aee0a558cc3ec1785f64f7c460c6dbfdaa1ac5e9a0043a16e4084cba9_prof);
+        $__internal_4fb133828ffd9d7b2f7e0bfe394c8a1ce56024638aa1e4c2ff95164fa8cb70a4->leave($__internal_4fb133828ffd9d7b2f7e0bfe394c8a1ce56024638aa1e4c2ff95164fa8cb70a4_prof);
 
     }
 
     // line 5
     public function block_title($context, array $blocks = array())
     {
-        $__internal_fd6315a08b6f7084371afb61544e8d01fba8ebfb53f3fabad9d98e12424f4b5a = $this->env->getExtension("native_profiler");
-        $__internal_fd6315a08b6f7084371afb61544e8d01fba8ebfb53f3fabad9d98e12424f4b5a->enter($__internal_fd6315a08b6f7084371afb61544e8d01fba8ebfb53f3fabad9d98e12424f4b5a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_d8ca2b8d7c2167935dc15b2088c5737a1d7888a3cc93431a8fa86281620f51f1 = $this->env->getExtension("native_profiler");
+        $__internal_d8ca2b8d7c2167935dc15b2088c5737a1d7888a3cc93431a8fa86281620f51f1->enter($__internal_d8ca2b8d7c2167935dc15b2088c5737a1d7888a3cc93431a8fa86281620f51f1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        echo "AALEH 2017";
+        echo "AALEH 2018";
         
-        $__internal_fd6315a08b6f7084371afb61544e8d01fba8ebfb53f3fabad9d98e12424f4b5a->leave($__internal_fd6315a08b6f7084371afb61544e8d01fba8ebfb53f3fabad9d98e12424f4b5a_prof);
+        $__internal_d8ca2b8d7c2167935dc15b2088c5737a1d7888a3cc93431a8fa86281620f51f1->leave($__internal_d8ca2b8d7c2167935dc15b2088c5737a1d7888a3cc93431a8fa86281620f51f1_prof);
 
     }
 
     // line 9
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_20527fbde561ca1b1e4129ee17df0fc47e35c35378965900ee2467b10e9ca728 = $this->env->getExtension("native_profiler");
-        $__internal_20527fbde561ca1b1e4129ee17df0fc47e35c35378965900ee2467b10e9ca728->enter($__internal_20527fbde561ca1b1e4129ee17df0fc47e35c35378965900ee2467b10e9ca728_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_8ba3de79f2cb9d90e901b4d5bbc3399b195a45f8fbd8ace7666b2caf61ba2ea4 = $this->env->getExtension("native_profiler");
+        $__internal_8ba3de79f2cb9d90e901b4d5bbc3399b195a45f8fbd8ace7666b2caf61ba2ea4->enter($__internal_8ba3de79f2cb9d90e901b4d5bbc3399b195a45f8fbd8ace7666b2caf61ba2ea4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         
-        $__internal_20527fbde561ca1b1e4129ee17df0fc47e35c35378965900ee2467b10e9ca728->leave($__internal_20527fbde561ca1b1e4129ee17df0fc47e35c35378965900ee2467b10e9ca728_prof);
+        $__internal_8ba3de79f2cb9d90e901b4d5bbc3399b195a45f8fbd8ace7666b2caf61ba2ea4->leave($__internal_8ba3de79f2cb9d90e901b4d5bbc3399b195a45f8fbd8ace7666b2caf61ba2ea4_prof);
 
     }
 
-    // line 51
+    // line 52
     public function block_cols($context, array $blocks = array())
     {
-        $__internal_7e3900756e6032069cfb4b1c896f46c4d5fbac9aab9df36151f5e44bf7317057 = $this->env->getExtension("native_profiler");
-        $__internal_7e3900756e6032069cfb4b1c896f46c4d5fbac9aab9df36151f5e44bf7317057->enter($__internal_7e3900756e6032069cfb4b1c896f46c4d5fbac9aab9df36151f5e44bf7317057_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
+        $__internal_c2c0d417f707cfb510778deb580f3f4891c1de237d51fb6bdf98430fbd5d90ef = $this->env->getExtension("native_profiler");
+        $__internal_c2c0d417f707cfb510778deb580f3f4891c1de237d51fb6bdf98430fbd5d90ef->enter($__internal_c2c0d417f707cfb510778deb580f3f4891c1de237d51fb6bdf98430fbd5d90ef_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
 
-        // line 52
-        echo "            ";
         // line 53
         echo "            ";
+        // line 54
+        echo "            ";
         
-        $__internal_7e3900756e6032069cfb4b1c896f46c4d5fbac9aab9df36151f5e44bf7317057->leave($__internal_7e3900756e6032069cfb4b1c896f46c4d5fbac9aab9df36151f5e44bf7317057_prof);
+        $__internal_c2c0d417f707cfb510778deb580f3f4891c1de237d51fb6bdf98430fbd5d90ef->leave($__internal_c2c0d417f707cfb510778deb580f3f4891c1de237d51fb6bdf98430fbd5d90ef_prof);
 
     }
 
-    // line 56
+    // line 57
     public function block_content($context, array $blocks = array())
     {
-        $__internal_761681be0893d6558ff5ce411f376b36fa4f02160997ba5f3a8b55ab99f94c21 = $this->env->getExtension("native_profiler");
-        $__internal_761681be0893d6558ff5ce411f376b36fa4f02160997ba5f3a8b55ab99f94c21->enter($__internal_761681be0893d6558ff5ce411f376b36fa4f02160997ba5f3a8b55ab99f94c21_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_c73736db0f19a7a912349ca1f562a49645812f834d7bd7280ada5ee3b113cc9b = $this->env->getExtension("native_profiler");
+        $__internal_c73736db0f19a7a912349ca1f562a49645812f834d7bd7280ada5ee3b113cc9b->enter($__internal_c73736db0f19a7a912349ca1f562a49645812f834d7bd7280ada5ee3b113cc9b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
-        // line 57
+        // line 58
         echo "
               ";
         
-        $__internal_761681be0893d6558ff5ce411f376b36fa4f02160997ba5f3a8b55ab99f94c21->leave($__internal_761681be0893d6558ff5ce411f376b36fa4f02160997ba5f3a8b55ab99f94c21_prof);
+        $__internal_c73736db0f19a7a912349ca1f562a49645812f834d7bd7280ada5ee3b113cc9b->leave($__internal_c73736db0f19a7a912349ca1f562a49645812f834d7bd7280ada5ee3b113cc9b_prof);
 
     }
 
-    // line 63
+    // line 64
     public function block_lateral($context, array $blocks = array())
     {
-        $__internal_1d2935253050c29563b9444f10af9029e5dfa519ab6770fe32ffa364e8eaa8fe = $this->env->getExtension("native_profiler");
-        $__internal_1d2935253050c29563b9444f10af9029e5dfa519ab6770fe32ffa364e8eaa8fe->enter($__internal_1d2935253050c29563b9444f10af9029e5dfa519ab6770fe32ffa364e8eaa8fe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "lateral"));
+        $__internal_b19e1e2afd4aad32ccae67bbc44acdb9b13b26ec3a850639c652f68fc70af454 = $this->env->getExtension("native_profiler");
+        $__internal_b19e1e2afd4aad32ccae67bbc44acdb9b13b26ec3a850639c652f68fc70af454->enter($__internal_b19e1e2afd4aad32ccae67bbc44acdb9b13b26ec3a850639c652f68fc70af454_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "lateral"));
 
-        // line 64
+        // line 65
         echo "            ";
         
-        $__internal_1d2935253050c29563b9444f10af9029e5dfa519ab6770fe32ffa364e8eaa8fe->leave($__internal_1d2935253050c29563b9444f10af9029e5dfa519ab6770fe32ffa364e8eaa8fe_prof);
+        $__internal_b19e1e2afd4aad32ccae67bbc44acdb9b13b26ec3a850639c652f68fc70af454->leave($__internal_b19e1e2afd4aad32ccae67bbc44acdb9b13b26ec3a850639c652f68fc70af454_prof);
 
     }
 
@@ -270,14 +272,14 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
 
     public function getDebugInfo()
     {
-        return array (  255 => 64,  249 => 63,  241 => 57,  235 => 56,  228 => 53,  226 => 52,  220 => 51,  209 => 9,  197 => 5,  182 => 90,  178 => 89,  174 => 88,  170 => 87,  166 => 86,  162 => 85,  158 => 84,  138 => 66,  136 => 65,  133 => 63,  128 => 59,  126 => 56,  122 => 54,  120 => 51,  112 => 46,  99 => 36,  95 => 35,  91 => 34,  87 => 33,  83 => 32,  79 => 31,  62 => 17,  51 => 10,  49 => 9,  45 => 8,  41 => 7,  37 => 6,  33 => 5,  27 => 1,);
+        return array (  257 => 65,  251 => 64,  243 => 58,  237 => 57,  230 => 54,  228 => 53,  222 => 52,  211 => 9,  199 => 5,  184 => 92,  180 => 91,  176 => 90,  172 => 89,  168 => 88,  164 => 87,  160 => 86,  139 => 67,  137 => 66,  134 => 64,  129 => 60,  127 => 57,  123 => 55,  121 => 52,  113 => 47,  100 => 37,  96 => 36,  92 => 35,  88 => 34,  84 => 33,  80 => 32,  63 => 18,  51 => 10,  49 => 9,  45 => 8,  41 => 7,  37 => 6,  33 => 5,  27 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
 /* <html>*/
 /*     <head>*/
 /*         <meta charset="UTF-8" />*/
-/*         <title>{% block title %}AALEH 2017{% endblock %}</title>*/
+/*         <title>{% block title %}AALEH 2018{% endblock %}</title>*/
 /*         <link rel="stylesheet" href="{{ asset('bundles/app/css/foundation.css') }}" />*/
 /*         <link rel="stylesheet" href="{{ asset('bundles/app/css/kube.css') }}" />*/
 /*         <link rel="stylesheet" href="{{ asset('bundles/app/css/orbit.css') }}" />*/
@@ -285,10 +287,11 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
 /*         <link rel="icon" type="image/x-icon" href="{{ asset('icono.ico') }}" />*/
 /*     </head>*/
 /*     <body >*/
+/*     <div class="body_back">*/
 /*     <div class="fondo" style="padding-bottom: 0px;padding-top: 0px;">*/
 /*       <div class="page-wrap">*/
 /*           <div class="row">*/
-/*             <a href="http://ccnc2017.ieee-ccnc.org/">*/
+/*             <a href="http://ccnc2018.ieee-ccnc.org/">*/
 /*                   <img src="{{ asset('banner.png')}}" class="img-rounded img-responsive" width="100%">*/
 /*             </a>*/
 /*           </div>*/
@@ -346,7 +349,7 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
 /*           <div class="row">*/
 /*             <div class="large-5 columns">*/
 /*                 <div style="padding-left: 10px;padding-right: 10px; ">*/
-/*                 <p style="font-size: 10px;">© Copyright. Workshop on Ambient Assisted Living and eHealth (AALEH 2017)</p>*/
+/*                 <p style="font-size: 10px;">© Copyright. Workshop on Ambient Assisted Living and eHealth (AALEH 2018)</p>*/
 /*                 </div>*/
 /*             </div>*/
 /*             <div class="large-7 columns">*/
@@ -356,6 +359,7 @@ class __TwigTemplate_4e9954efc379c50274be15ce1c1f326768181492e01a0aee6627026f49c
 /*         </div>*/
 /*       </footer>*/
 /*       </div>*/
+/*     </div>*/
 /*   <script src="{{asset('bundles/app/js/foundation.min.js')}}"></script>*/
 /*   <script src="{{asset('bundles/app/js/foundation/foundation.js')}}"></script>*/
 /*   <script src="{{asset('bundles/app/js/foundation/foundation.dropdown.js')}}"></script>*/

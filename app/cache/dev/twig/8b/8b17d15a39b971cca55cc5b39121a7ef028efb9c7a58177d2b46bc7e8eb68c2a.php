@@ -22,51 +22,50 @@ class __TwigTemplate_a0d7f21fa6bc0d2769aff5b5de7544dfe012e218c7e22a11d3cf51d8f6e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a3285a34a7b82cd2e483928140a8850a6b63efc4db3b8a0448d2bf2d5f87d597 = $this->env->getExtension("native_profiler");
-        $__internal_a3285a34a7b82cd2e483928140a8850a6b63efc4db3b8a0448d2bf2d5f87d597->enter($__internal_a3285a34a7b82cd2e483928140a8850a6b63efc4db3b8a0448d2bf2d5f87d597_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:venue.html.twig"));
+        $__internal_c5d5bf75eba4830170ce00d33f2fbfac128947808db9d8bd3e19500b0323a123 = $this->env->getExtension("native_profiler");
+        $__internal_c5d5bf75eba4830170ce00d33f2fbfac128947808db9d8bd3e19500b0323a123->enter($__internal_c5d5bf75eba4830170ce00d33f2fbfac128947808db9d8bd3e19500b0323a123_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:venue.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_a3285a34a7b82cd2e483928140a8850a6b63efc4db3b8a0448d2bf2d5f87d597->leave($__internal_a3285a34a7b82cd2e483928140a8850a6b63efc4db3b8a0448d2bf2d5f87d597_prof);
+        $__internal_c5d5bf75eba4830170ce00d33f2fbfac128947808db9d8bd3e19500b0323a123->leave($__internal_c5d5bf75eba4830170ce00d33f2fbfac128947808db9d8bd3e19500b0323a123_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_38b79af3da967935195462a27800e6a42f4098a5a4870d66bb6ba20ed394ee41 = $this->env->getExtension("native_profiler");
-        $__internal_38b79af3da967935195462a27800e6a42f4098a5a4870d66bb6ba20ed394ee41->enter($__internal_38b79af3da967935195462a27800e6a42f4098a5a4870d66bb6ba20ed394ee41_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_b2aec6307b054083080d6146a084bf048966fd5c7b352b6aa56cc29650e04aaa = $this->env->getExtension("native_profiler");
+        $__internal_b2aec6307b054083080d6146a084bf048966fd5c7b352b6aa56cc29650e04aaa->enter($__internal_b2aec6307b054083080d6146a084bf048966fd5c7b352b6aa56cc29650e04aaa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "<h1>Venue</h1>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-\t&nbsp;&nbsp;&nbsp;<img alt=\"\" src=\"http://www.hauntedpoker.com/images/tropicana.jpg\" width=\"45%\" height=\"45%\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-\tIEEE CCNC 2017 conference has selected the Tropicana Las Vegas Casino Hotel Resort as its headquarters hotel. Tropicana Las Vegas Casino Hotel Resort is an exciting place to be. Located on the Las Vegas Strip.<br>
+<p><br>
+\t<strong>Flamingo Las Vegas</strong> will serve as the conference hotel for IEEE CCNC 2018. Flamingo may be one of the most classic Las Vegas hotels, but its rooms feature sleek, bright designs and decor. Set on the famous four corners of Las Vegas Boulevard and Flamingo Road, this Las Vegas hotel combines heart-pounding excitement with hospitality and service that's second to none. Located adjacent to The Linq and The High Roller.<br>
 \t<br>
-\tTropicana Las Vegas Casino Hotel Resort<br>
-\t3801 Las Vegas Blvd. South<br>
-\tLas Vegas, NV 89109 <br>
+\tFlamingo Las Vegas<br>
+\t3555 Las Vegas Boulevard South<br>
+\tLas Vegas, NV 89109<br>
+\tPhone:  +1 702.733.3111<br>
 \t<br><br>
 \t<br>
 \t</p>
 ";
         
-        $__internal_38b79af3da967935195462a27800e6a42f4098a5a4870d66bb6ba20ed394ee41->leave($__internal_38b79af3da967935195462a27800e6a42f4098a5a4870d66bb6ba20ed394ee41_prof);
+        $__internal_b2aec6307b054083080d6146a084bf048966fd5c7b352b6aa56cc29650e04aaa->leave($__internal_b2aec6307b054083080d6146a084bf048966fd5c7b352b6aa56cc29650e04aaa_prof);
 
     }
 
-    // line 16
+    // line 15
     public function block_cols($context, array $blocks = array())
     {
-        $__internal_16173aa5d1da7ddbb366994415b87b12faf99e928ad44a82338011d480d2fc21 = $this->env->getExtension("native_profiler");
-        $__internal_16173aa5d1da7ddbb366994415b87b12faf99e928ad44a82338011d480d2fc21->enter($__internal_16173aa5d1da7ddbb366994415b87b12faf99e928ad44a82338011d480d2fc21_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
+        $__internal_63c084ebe5b3a76d4ba922b704795d63aa16d8c09dc47dcb0387d23d8b3a430e = $this->env->getExtension("native_profiler");
+        $__internal_63c084ebe5b3a76d4ba922b704795d63aa16d8c09dc47dcb0387d23d8b3a430e->enter($__internal_63c084ebe5b3a76d4ba922b704795d63aa16d8c09dc47dcb0387d23d8b3a430e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
 
-        // line 17
+        // line 16
         echo "<div class=\"large-12 columns\">
 ";
         
-        $__internal_16173aa5d1da7ddbb366994415b87b12faf99e928ad44a82338011d480d2fc21->leave($__internal_16173aa5d1da7ddbb366994415b87b12faf99e928ad44a82338011d480d2fc21_prof);
+        $__internal_63c084ebe5b3a76d4ba922b704795d63aa16d8c09dc47dcb0387d23d8b3a430e->leave($__internal_63c084ebe5b3a76d4ba922b704795d63aa16d8c09dc47dcb0387d23d8b3a430e_prof);
 
     }
 
@@ -82,20 +81,19 @@ class __TwigTemplate_a0d7f21fa6bc0d2769aff5b5de7544dfe012e218c7e22a11d3cf51d8f6e
 
     public function getDebugInfo()
     {
-        return array (  66 => 17,  60 => 16,  41 => 3,  35 => 2,  11 => 1,);
+        return array (  65 => 16,  59 => 15,  41 => 3,  35 => 2,  11 => 1,);
     }
 }
 /* {% extends '::base.html.twig' %}*/
 /* {% block content %}*/
 /* <h1>Venue</h1>*/
-/* <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>*/
-/* 	&nbsp;&nbsp;&nbsp;<img alt="" src="http://www.hauntedpoker.com/images/tropicana.jpg" width="45%" height="45%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>*/
-/* 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>*/
-/* 	IEEE CCNC 2017 conference has selected the Tropicana Las Vegas Casino Hotel Resort as its headquarters hotel. Tropicana Las Vegas Casino Hotel Resort is an exciting place to be. Located on the Las Vegas Strip.<br>*/
+/* <p><br>*/
+/* 	<strong>Flamingo Las Vegas</strong> will serve as the conference hotel for IEEE CCNC 2018. Flamingo may be one of the most classic Las Vegas hotels, but its rooms feature sleek, bright designs and decor. Set on the famous four corners of Las Vegas Boulevard and Flamingo Road, this Las Vegas hotel combines heart-pounding excitement with hospitality and service that's second to none. Located adjacent to The Linq and The High Roller.<br>*/
 /* 	<br>*/
-/* 	Tropicana Las Vegas Casino Hotel Resort<br>*/
-/* 	3801 Las Vegas Blvd. South<br>*/
-/* 	Las Vegas, NV 89109 <br>*/
+/* 	Flamingo Las Vegas<br>*/
+/* 	3555 Las Vegas Boulevard South<br>*/
+/* 	Las Vegas, NV 89109<br>*/
+/* 	Phone:  +1 702.733.3111<br>*/
 /* 	<br><br>*/
 /* 	<br>*/
 /* 	</p>*/
