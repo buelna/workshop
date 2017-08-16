@@ -22,20 +22,20 @@ class __TwigTemplate_35eb588dc680e2dd6ac1b74ed594ca5a86e063a0790d92205973d14236c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_d3b5643e568f4348c193243d500d7410d0c6a797ee9eb3a2725e9c8098392b77 = $this->env->getExtension("native_profiler");
-        $__internal_d3b5643e568f4348c193243d500d7410d0c6a797ee9eb3a2725e9c8098392b77->enter($__internal_d3b5643e568f4348c193243d500d7410d0c6a797ee9eb3a2725e9c8098392b77_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:comite.html.twig"));
+        $__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d = $this->env->getExtension("native_profiler");
+        $__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d->enter($__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:comite.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_d3b5643e568f4348c193243d500d7410d0c6a797ee9eb3a2725e9c8098392b77->leave($__internal_d3b5643e568f4348c193243d500d7410d0c6a797ee9eb3a2725e9c8098392b77_prof);
+        $__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d->leave($__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_71ea7ed212d8cd8d1b3d5cfc956c18856644e32c070ae5b0b09b66ed324a133c = $this->env->getExtension("native_profiler");
-        $__internal_71ea7ed212d8cd8d1b3d5cfc956c18856644e32c070ae5b0b09b66ed324a133c->enter($__internal_71ea7ed212d8cd8d1b3d5cfc956c18856644e32c070ae5b0b09b66ed324a133c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58 = $this->env->getExtension("native_profiler");
+        $__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58->enter($__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "<h1>Organization</h1>
@@ -47,26 +47,40 @@ Juan Pablo García (UABC, México)
 <h4>Program Committee</h4>
 <ul>
   <li>Lex Van Velsen (Roessingh Research and Development)</li>
-  <li ></li>
+  <li>Paolo Spagnolo (Consiglio Nazionale delle Ricerche)</li>
+  <li>Teodora Sanislav (Technical University of Cluj-Napoca)</li>
+  <li>Julio Sanguesa (Universidad de Zaragoza)</li>
+  <li>Mihail Popescu (University of Missouri)</li>
+  <li>Juan Garcia Vázquez (Universidad Autonoma de Baja California)</li>
+  <li>Carlos Galván-Tejada (Instituto Tecnológico y de Estudios Superiores de Monterrey)</li>
+  <li>Arnoldo Diaz-Ramirez (Instituto Tecnológico de Mexicali)</li>
+  <li>Jonathon Chambers (Newcastle University)</li>
+  <li>Jose Carrasco-Jimenez (Instituto Tecnológico y de Estudios Superiores de Monterrey)</li>
+  <li>Ramon Brena (Tecnológico de Monterrey, Campus Monterrey)</li>
+  <li>Carlos T. Calafate(Universitat Politècnica de València, Spain)</li>
+  <li>Pietro Manzoni (Universitat Politècnica de València, Spain)</li>
+  <li>Ismael Ripoll (Universitat Politècnica de València, Spain)</li>
+  <li>Johann Marquez-Barja (University of Antwerp, Belgium)</li>
+  <li>Leonardo Trujillo (Instituto Tecnológico de Tijuana, México)</li>
 </ul>
  </p>
 ";
         
-        $__internal_71ea7ed212d8cd8d1b3d5cfc956c18856644e32c070ae5b0b09b66ed324a133c->leave($__internal_71ea7ed212d8cd8d1b3d5cfc956c18856644e32c070ae5b0b09b66ed324a133c_prof);
+        $__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58->leave($__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58_prof);
 
     }
 
-    // line 16
+    // line 30
     public function block_cols($context, array $blocks = array())
     {
-        $__internal_e40842232db4c24141b60ee0fab7d8202edc959c1fc41f34f98005309b3855f7 = $this->env->getExtension("native_profiler");
-        $__internal_e40842232db4c24141b60ee0fab7d8202edc959c1fc41f34f98005309b3855f7->enter($__internal_e40842232db4c24141b60ee0fab7d8202edc959c1fc41f34f98005309b3855f7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
+        $__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c = $this->env->getExtension("native_profiler");
+        $__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c->enter($__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
 
-        // line 17
+        // line 31
         echo "<div class=\"large-12 columns\">
 ";
         
-        $__internal_e40842232db4c24141b60ee0fab7d8202edc959c1fc41f34f98005309b3855f7->leave($__internal_e40842232db4c24141b60ee0fab7d8202edc959c1fc41f34f98005309b3855f7_prof);
+        $__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c->leave($__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c_prof);
 
     }
 
@@ -82,7 +96,7 @@ Juan Pablo García (UABC, México)
 
     public function getDebugInfo()
     {
-        return array (  66 => 17,  60 => 16,  41 => 3,  35 => 2,  11 => 1,);
+        return array (  80 => 31,  74 => 30,  41 => 3,  35 => 2,  11 => 1,);
     }
 }
 /* {% extends '::base.html.twig' %}*/
@@ -96,7 +110,21 @@ Juan Pablo García (UABC, México)
 /* <h4>Program Committee</h4>*/
 /* <ul>*/
 /*   <li>Lex Van Velsen (Roessingh Research and Development)</li>*/
-/*   <li ></li>*/
+/*   <li>Paolo Spagnolo (Consiglio Nazionale delle Ricerche)</li>*/
+/*   <li>Teodora Sanislav (Technical University of Cluj-Napoca)</li>*/
+/*   <li>Julio Sanguesa (Universidad de Zaragoza)</li>*/
+/*   <li>Mihail Popescu (University of Missouri)</li>*/
+/*   <li>Juan Garcia Vázquez (Universidad Autonoma de Baja California)</li>*/
+/*   <li>Carlos Galván-Tejada (Instituto Tecnológico y de Estudios Superiores de Monterrey)</li>*/
+/*   <li>Arnoldo Diaz-Ramirez (Instituto Tecnológico de Mexicali)</li>*/
+/*   <li>Jonathon Chambers (Newcastle University)</li>*/
+/*   <li>Jose Carrasco-Jimenez (Instituto Tecnológico y de Estudios Superiores de Monterrey)</li>*/
+/*   <li>Ramon Brena (Tecnológico de Monterrey, Campus Monterrey)</li>*/
+/*   <li>Carlos T. Calafate(Universitat Politècnica de València, Spain)</li>*/
+/*   <li>Pietro Manzoni (Universitat Politècnica de València, Spain)</li>*/
+/*   <li>Ismael Ripoll (Universitat Politècnica de València, Spain)</li>*/
+/*   <li>Johann Marquez-Barja (University of Antwerp, Belgium)</li>*/
+/*   <li>Leonardo Trujillo (Instituto Tecnológico de Tijuana, México)</li>*/
 /* </ul>*/
 /*  </p>*/
 /* {% endblock %}*/
