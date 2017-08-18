@@ -22,20 +22,20 @@ class __TwigTemplate_35eb588dc680e2dd6ac1b74ed594ca5a86e063a0790d92205973d14236c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080 = $this->env->getExtension("native_profiler");
-        $__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080->enter($__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:comite.html.twig"));
+        $__internal_485943701948271af51f23ffda21aa3dc8da169cd1e65308241137d05208189e = $this->env->getExtension("native_profiler");
+        $__internal_485943701948271af51f23ffda21aa3dc8da169cd1e65308241137d05208189e->enter($__internal_485943701948271af51f23ffda21aa3dc8da169cd1e65308241137d05208189e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:comite.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080->leave($__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080_prof);
+        $__internal_485943701948271af51f23ffda21aa3dc8da169cd1e65308241137d05208189e->leave($__internal_485943701948271af51f23ffda21aa3dc8da169cd1e65308241137d05208189e_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82 = $this->env->getExtension("native_profiler");
-        $__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82->enter($__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_2a808a768249a7f6e0a8885e209c3f8721b6a391cd5cf5d7f7241db520c8a895 = $this->env->getExtension("native_profiler");
+        $__internal_2a808a768249a7f6e0a8885e209c3f8721b6a391cd5cf5d7f7241db520c8a895->enter($__internal_2a808a768249a7f6e0a8885e209c3f8721b6a391cd5cf5d7f7241db520c8a895_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "<h1>Organization</h1>
@@ -62,25 +62,26 @@ Juan Pablo García (UABC, México)
   <li>Ismael Ripoll (Universitat Politècnica de València, Spain)</li>
   <li>Johann Marquez-Barja (University of Antwerp, Belgium)</li>
   <li>Leonardo Trujillo (Instituto Tecnológico de Tijuana, México)</li>
+  <li>Luis Jaimes (Florida Polytechnic University)</li>
 </ul>
  </p>
 ";
         
-        $__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82->leave($__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82_prof);
+        $__internal_2a808a768249a7f6e0a8885e209c3f8721b6a391cd5cf5d7f7241db520c8a895->leave($__internal_2a808a768249a7f6e0a8885e209c3f8721b6a391cd5cf5d7f7241db520c8a895_prof);
 
     }
 
-    // line 30
+    // line 31
     public function block_cols($context, array $blocks = array())
     {
-        $__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab = $this->env->getExtension("native_profiler");
-        $__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab->enter($__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
+        $__internal_6a7990fc4396aee5ff806ac5f837dff1ce804ac7bc9da2b8efbd9d08f7f9385e = $this->env->getExtension("native_profiler");
+        $__internal_6a7990fc4396aee5ff806ac5f837dff1ce804ac7bc9da2b8efbd9d08f7f9385e->enter($__internal_6a7990fc4396aee5ff806ac5f837dff1ce804ac7bc9da2b8efbd9d08f7f9385e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
 
-        // line 31
+        // line 32
         echo "<div class=\"large-12 columns\">
 ";
         
-        $__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab->leave($__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab_prof);
+        $__internal_6a7990fc4396aee5ff806ac5f837dff1ce804ac7bc9da2b8efbd9d08f7f9385e->leave($__internal_6a7990fc4396aee5ff806ac5f837dff1ce804ac7bc9da2b8efbd9d08f7f9385e_prof);
 
     }
 
@@ -96,7 +97,7 @@ Juan Pablo García (UABC, México)
 
     public function getDebugInfo()
     {
-        return array (  80 => 31,  74 => 30,  41 => 3,  35 => 2,  11 => 1,);
+        return array (  81 => 32,  75 => 31,  41 => 3,  35 => 2,  11 => 1,);
     }
 }
 /* {% extends '::base.html.twig' %}*/
@@ -125,6 +126,7 @@ Juan Pablo García (UABC, México)
 /*   <li>Ismael Ripoll (Universitat Politècnica de València, Spain)</li>*/
 /*   <li>Johann Marquez-Barja (University of Antwerp, Belgium)</li>*/
 /*   <li>Leonardo Trujillo (Instituto Tecnológico de Tijuana, México)</li>*/
+/*   <li>Luis Jaimes (Florida Polytechnic University)</li>*/
 /* </ul>*/
 /*  </p>*/
 /* {% endblock %}*/
