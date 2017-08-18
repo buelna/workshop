@@ -22,20 +22,20 @@ class __TwigTemplate_35eb588dc680e2dd6ac1b74ed594ca5a86e063a0790d92205973d14236c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d = $this->env->getExtension("native_profiler");
-        $__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d->enter($__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:comite.html.twig"));
+        $__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080 = $this->env->getExtension("native_profiler");
+        $__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080->enter($__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:comite.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d->leave($__internal_a9fd8d385837a6220b0714f1595203822066d30f2f937ddaae34abbd25d29d5d_prof);
+        $__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080->leave($__internal_62909304d982a46c1c8a59c90ce0c1c10bb01f07fd3dccc39f2a405319e53080_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58 = $this->env->getExtension("native_profiler");
-        $__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58->enter($__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82 = $this->env->getExtension("native_profiler");
+        $__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82->enter($__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "<h1>Organization</h1>
@@ -66,21 +66,21 @@ Juan Pablo García (UABC, México)
  </p>
 ";
         
-        $__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58->leave($__internal_974ef75f72639ef371ec4c7ab4f8068a95fcf48b94b40b65f3c30cb37118cc58_prof);
+        $__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82->leave($__internal_535b4e3bd1540551c5e7dea06bf636cc1c90d636a13d22fa0ff8ccd75d708f82_prof);
 
     }
 
     // line 30
     public function block_cols($context, array $blocks = array())
     {
-        $__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c = $this->env->getExtension("native_profiler");
-        $__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c->enter($__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
+        $__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab = $this->env->getExtension("native_profiler");
+        $__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab->enter($__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "cols"));
 
         // line 31
         echo "<div class=\"large-12 columns\">
 ";
         
-        $__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c->leave($__internal_18737b081f7d1cafb74fc1724113bfe2f266754cd922e419daee5269e280b21c_prof);
+        $__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab->leave($__internal_da0bbc0b34a3288926a6a61ba734387c55a6b8f95d3153b4b3029579f4cd33ab_prof);
 
     }
 

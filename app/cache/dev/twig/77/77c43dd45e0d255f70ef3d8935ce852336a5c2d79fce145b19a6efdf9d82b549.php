@@ -21,20 +21,20 @@ class __TwigTemplate_f1127f0b0754d68feca8c6bb9c5411bf16b1b7286547d6b8a7ff7af6854
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_47594102731422e0a7fc152a4cf1e56212eb2d18c6fe6e129fea8a0315bc5d4c = $this->env->getExtension("native_profiler");
-        $__internal_47594102731422e0a7fc152a4cf1e56212eb2d18c6fe6e129fea8a0315bc5d4c->enter($__internal_47594102731422e0a7fc152a4cf1e56212eb2d18c6fe6e129fea8a0315bc5d4c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:instrucciones.html.twig"));
+        $__internal_7a6f62ffd988e19f61138291112083fe3ff86598549a168c6e8a5355d395993d = $this->env->getExtension("native_profiler");
+        $__internal_7a6f62ffd988e19f61138291112083fe3ff86598549a168c6e8a5355d395993d->enter($__internal_7a6f62ffd988e19f61138291112083fe3ff86598549a168c6e8a5355d395993d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Default:instrucciones.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_47594102731422e0a7fc152a4cf1e56212eb2d18c6fe6e129fea8a0315bc5d4c->leave($__internal_47594102731422e0a7fc152a4cf1e56212eb2d18c6fe6e129fea8a0315bc5d4c_prof);
+        $__internal_7a6f62ffd988e19f61138291112083fe3ff86598549a168c6e8a5355d395993d->leave($__internal_7a6f62ffd988e19f61138291112083fe3ff86598549a168c6e8a5355d395993d_prof);
 
     }
 
     // line 2
     public function block_content($context, array $blocks = array())
     {
-        $__internal_c376e06d5cd0c996314631989b01552cadf31254ef75cf1b32e37335b68683d7 = $this->env->getExtension("native_profiler");
-        $__internal_c376e06d5cd0c996314631989b01552cadf31254ef75cf1b32e37335b68683d7->enter($__internal_c376e06d5cd0c996314631989b01552cadf31254ef75cf1b32e37335b68683d7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
+        $__internal_e40e614baf290b80661a7b186ebfd058de4e8daa4ee3a34564052b207eb4523b = $this->env->getExtension("native_profiler");
+        $__internal_e40e614baf290b80661a7b186ebfd058de4e8daa4ee3a34564052b207eb4523b->enter($__internal_e40e614baf290b80661a7b186ebfd058de4e8daa4ee3a34564052b207eb4523b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "content"));
 
         // line 3
         echo "<h1>Instructions for Authors</h1>
@@ -53,7 +53,7 @@ See IEEE CCNC 2018 conference website for more details: <a href=\"http://ccnc201
 <p>&nbsp;</p>
 ";
         
-        $__internal_c376e06d5cd0c996314631989b01552cadf31254ef75cf1b32e37335b68683d7->leave($__internal_c376e06d5cd0c996314631989b01552cadf31254ef75cf1b32e37335b68683d7_prof);
+        $__internal_e40e614baf290b80661a7b186ebfd058de4e8daa4ee3a34564052b207eb4523b->leave($__internal_e40e614baf290b80661a7b186ebfd058de4e8daa4ee3a34564052b207eb4523b_prof);
 
     }
 
